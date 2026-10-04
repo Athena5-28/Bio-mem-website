@@ -1,9 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-  <rect width="40" height="40" rx="8" fill="#151916"/>
-  <g fill="none" stroke="#d2f49e" stroke-width="1.7">
-    <rect x="9" y="9" width="22" height="22" rx="1"/>
-    <path d="M9 20h22M20 9v22M5 14h4M5 26h4M31 14h4M31 26h4M14 5v4M26 5v4M14 31v4M26 31v4"/>
-  </g>
-  <rect x="12" y="12" width="5" height="5" fill="#d2f49e"/>
-  <rect x="23" y="23" width="5" height="5" fill="#d2f49e"/>
+  <title>Matter Fold</title>
+  <rect width="40" height="40" rx="7" fill="#f2efe8"/>
+  <path d="M7 10h14L13 30H7z" fill="#182722"/>
+  <path d="M21 10h12L21 30H13z" fill="#ed5833"/>
+  <path d="M21 30h12V10z" fill="#b53b22"/>
 </svg>

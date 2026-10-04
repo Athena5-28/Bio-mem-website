@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 570" role="img" aria-labelledby="fold-title fold-desc">
+  <title id="fold-title">Matter Fold: from an open material lattice to an ordered device</title>
+  <desc id="fold-desc">An orange sheet folds through three geometric planes above a forest-green grid of material cells. The illustration expresses the transformation of biological materials into functional hardware.</desc>
+  <defs>
+    <linearGradient id="fold-front" x1="95" y1="170" x2="318" y2="325" gradientUnits="userSpaceOnUse"><stop stop-color="#f98560"/><stop offset="1" stop-color="#ed5833"/></linearGradient>
+    <linearGradient id="fold-light" x1="220" y1="80" x2="465" y2="250" gradientUnits="userSpaceOnUse"><stop stop-color="#ffac83"/><stop offset="1" stop-color="#f16b42"/></linearGradient>
+    <linearGradient id="base-plane" x1="175" y1="310" x2="466" y2="475" gradientUnits="userSpaceOnUse"><stop stop-color="#34513b"/><stop offset="1" stop-color="#182722"/></linearGradient>
+    <clipPath id="sheet-clip"><path d="M78 180 276 78 448 183 395 321 218 399 116 318Z"/></clipPath>
+    <clipPath id="base-clip"><path d="m150 380 207-107 211 112-207 107Z"/></clipPath>
+    <pattern id="base-grid" width="29" height="29" patternUnits="userSpaceOnUse" patternTransform="matrix(1 .54 -1 .54 350 270)"><path d="M29 0H0V29" fill="none" stroke="#8da475" stroke-width="1.1"/></pattern>
+  </defs>
+
+  <g fill="none" stroke="#c4ccb6" stroke-width="1">
+    <path d="M35 490h550M35 85v435M585 85v435"/>
+    <path d="M35 115h7m-7 75h7m-7 75h7m-7 75h7m-7 75h7M578 115h7m-7 75h7m-7 75h7m-7 75h7m-7 75h7"/>
+  </g>
+  <ellipse cx="339" cy="454" rx="213" ry="56" fill="#182722" opacity=".055"/>
+
+  <path d="m150 380 207-107 211 112v22L361 514 150 402Z" fill="#15281d" stroke="#50684a" stroke-width="1.2"/>
+  <path d="m150 380 207-107 211 112-207 107Z" fill="url(#base-plane)" stroke="#667f53" stroke-width="1.2"/>
+  <path d="m173 380 184-95 187 100-184 95Z" fill="url(#base-grid)" clip-path="url(#base-clip)"/>
+  <g fill="#d9e9a0" stroke="#aabb83" stroke-width="1">
+    <path d="m323 347 31-16 31 17-31 16Z"/><path d="m374 375 31-16 31 17-31 16Z"/><path d="m425 403 31-16 31 17-31 16Z"/>
+    <path d="m276 371 31-16 31 17-31 16Z"/><path d="m327 399 31-16 31 17-31 16Z"/><path d="m378 427 31-16 31 17-31 16Z"/>
+    <path d="m229 395 31-16 31 17-31 16Z"/><path d="m280 423 31-16 31 17-31 16Z"/><path d="m331 451 31-16 31 17-31 16Z"/>
+  </g>
+  <g fill="none" stroke="#829c68" stroke-width="1.4">
+    <path d="m165 405-46 23H79m127 0-42 22H122m309-9 46 24h77m-43-47 42 22h36"/>
+  </g>
+
+  <g fill="none" stroke="#7c8e66" stroke-width="1" stroke-dasharray="3 7" opacity=".75">
+    <path d="M116 318v99M218 399v75M395 321v128M448 183v146"/>
+  </g>
+
+  <path d="M78 180 276 78 245 226 116 318Z" fill="url(#fold-front)"/>
+  <path d="M276 78 448 183 245 226Z" fill="url(#fold-light)"/>
+  <path d="m245 226 203-43-53 138-177 78Z" fill="#c34327"/>
+  <path d="m116 318 129-92-27 173Z" fill="#f27a4b"/>
+
+  <g clip-path="url(#sheet-clip)" fill="none" stroke="#7e2c1b" stroke-width=".85" opacity=".35">
+    <path d="m45 170 252 80 211-64M61 199l222 76 213-66M77 229l192 70 215-64M92 259l163 65 218-66M107 289l133 61 220-66M121 320l107 56 218-66M141 351l73 45 219-62"/>
+    <path d="M100 335 83 177M125 346l-13-182m42 204-12-219m41 241-10-256m42 266-7-283m45 276 38-309m-10 303 73-265m-51 254 91-229m-69 219 112-192m-90 182 139-159m-116 149 142-118"/>
+  </g>
+  <g fill="none" stroke="#702917" stroke-width="1.2" opacity=".7">
+    <path d="M78 180 276 78 448 183 395 321 218 399 116 318Z"/>
+    <path d="m78 180 167 46 203-43M276 78l-31 148-27 173M116 318l129-92"/>
+  </g>
+  <path d="M276 78 245 226 218 399" fill="none" stroke="#ffc29a" stroke-width="2"/>
+
+  <g fill="#ed5833"><circle cx="78" cy="180" r="3.5"/><circle cx="448" cy="183" r="3.5"/><circle cx="218" cy="399" r="3.5"/></g>
+  <g fill="none" stroke="#7c8e66" stroke-width="1"><path d="M464 182h57l25-25h24M439 344h71l25-25h35"/><circle cx="464" cy="182" r="3"/><circle cx="439" cy="344" r="3"/></g>
+  <g fill="#53674d" font-family="Courier New, Courier, monospace" font-size="9" letter-spacing="1.2"><text x="476" y="144">MATERIAL</text><text x="476" y="306">FUNCTION</text><text x="49" y="54">MF / FORM STUDY 001</text><text x="395" y="542">CONCEPTUAL MATERIAL STUDY</text></g>
+  <g fill="none" stroke="#738666" stroke-width="1"><path d="M48 535h48M72 523v24"/><path d="m52 530 20 5 20-5"/></g>
+</svg>
