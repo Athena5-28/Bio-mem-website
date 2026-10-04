@@ -6,8 +6,8 @@
   --ink: #182722;
   --muted: #657068;
   --line: #d0d2c6;
-  --orange: #ed5833;
-  --orange-ink: #a6351c;
+  --orange: #c6753b;
+  --orange-ink: #96502b;
   --lime: #d9e9a0;
   --serif: Georgia, "Times New Roman", serif;
   --sans: Arial, Helvetica, sans-serif;
@@ -30,7 +30,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--orange); outlin
 .site-header { position: sticky; top: 0; z-index: 20; background: rgba(242, 239, 232, .96); border-bottom: 1px solid var(--line); backdrop-filter: blur(12px); }
 .header-inner { min-height: 91px; display: flex; align-items: center; justify-content: space-between; gap: 32px; }
 .wordmark { display: inline-flex; align-items: center; gap: 12px; color: var(--ink); white-space: nowrap; }
-.wordmark svg { width: 36px; height: 36px; flex: 0 0 auto; }
+.wordmark svg { width: 26px; height: 58px; flex: 0 0 auto; }
 .brand-name { font: 600 25px/1.1 var(--sans); letter-spacing: -1px; }
 nav { display: flex; align-items: center; gap: 31px; font-size: 12px; }
 nav a { padding-block: 14px; }
@@ -54,10 +54,10 @@ h1 em { color: var(--orange); font-weight: 400; }
 .text-link:hover { color: var(--orange-ink); border-color: var(--orange); }
 .hero-note { margin-top: 41px; padding-top: 20px; border-top: 1px solid var(--line); max-width: 450px; color: #687267; font: 10px/1.8 var(--mono); }
 .hero-note span { color: var(--orange-ink); }
-.hero-art { min-width: 0; margin: 0; background: #e8e9de; border: 1px solid #d4d8c9; }
+.hero-art { min-width: 0; margin: 0; background: #f7f5ef; border: 1px solid #d4d8c9; }
 .art-topline { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 18px 21px; border-bottom: 1px solid #cbd1c0; font: 9px/1.5 var(--mono); letter-spacing: 1px; color: #596b58; }
 .art-topline span:last-child { color: var(--orange-ink); }
-.hero-art img { display: block; width: 100%; height: auto; }
+.hero-art img { display: block; width: auto; height: 350px; max-width: 48%; object-fit: contain; margin: 45px auto; }
 .hero-art figcaption { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 16px 21px; border-top: 1px solid #cbd1c0; color: #596b58; font: 9px/1.6 var(--mono); }
 
 .signal-strip { border-block: 1px solid var(--line); }
@@ -132,7 +132,7 @@ h2 em { font-weight: 400; color: var(--orange-ink); }
 .contact-note { margin-top: 13px; font-size: 11px; color: #493226; }
 .contact-section a:focus-visible { outline-color: var(--ink); }
 .footer { display: flex; align-items: center; gap: 33px; padding-block: 31px; }
-.footer .wordmark svg { width: 30px; height: 30px; }
+.footer .wordmark svg { width: 21px; height: 45px; }
 .footer .brand-name { font-size: 20px; }
 .footer > p { color: #687466; font-size: 10px; }
 .footer-links { display: flex; gap: 25px; margin-left: auto; color: #667163; font-size: 10px; }
@@ -160,7 +160,7 @@ h2 em { font-weight: 400; color: var(--orange-ink); }
   .container { width: calc(100% - 48px); }
   .header-inner { gap: 20px; }
   .brand-name { font-size: 22px; }
-  .wordmark svg { width: 32px; height: 32px; }
+  .wordmark svg { width: 24px; height: 54px; }
   nav { gap: 18px; font-size: 11px; }
   nav .nav-contact { padding-inline: 14px; }
   .nav-contact span { margin-left: 10px; }
@@ -185,7 +185,7 @@ h2 em { font-weight: 400; color: var(--orange-ink); }
   html { scroll-padding-top: 126px; }
   .container { width: calc(100% - 40px); }
   .header-inner { min-height: 108px; flex-wrap: wrap; gap: 13px; padding-block: 16px 12px; }
-  .wordmark svg { width: 30px; height: 30px; }
+  .wordmark svg { width: 22px; height: 50px; }
   .brand-name { font-size: 23px; }
   nav { width: 100%; justify-content: space-between; gap: 12px; font-size: 11px; }
   nav a { padding-block: 6px; }
@@ -199,6 +199,7 @@ h2 em { font-weight: 400; color: var(--orange-ink); }
   .button { min-height: 49px; padding-inline: 18px; gap: 24px; }
   .hero-note { margin-top: 29px; padding-top: 18px; font-size: 9px; }
   .hero-art { width: min(100%, 480px); justify-self: center; }
+  .hero-art img { height: 270px; margin-block: 32px; }
   .art-topline, .hero-art figcaption { padding: 14px 15px; gap: 12px; }
   .signal-strip .container { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); padding-block: 18px; gap: 16px; font-size: 8px; letter-spacing: 0; }
   .signal-strip .container > span { align-items: flex-start; gap: 8px; }
@@ -240,7 +241,7 @@ h2 em { font-weight: 400; color: var(--orange-ink); }
   .contact-note { font-size: 10px; }
   .footer { padding-block: 25px; gap: 18px; }
   .footer .brand-name { font-size: 18px; }
-  .footer .wordmark svg { width: 26px; height: 26px; }
+  .footer .wordmark svg { width: 19px; height: 41px; }
   .footer > p { margin-left: auto; text-align: right; max-width: 160px; font-size: 9px; }
   .footer-links { margin-left: 0; font-size: 9px; padding-top: 18px; }
 }

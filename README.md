@@ -4,10 +4,10 @@ A responsive website for Matter Fold, an early-stage project exploring how biolo
 
 ## Website files
 
-- `index.html`: website structure, copy, concept illustrations, and search/social metadata.
+- `index.html`: website structure, copy, a memory-cell concept illustration, and search/social metadata.
 - `styles.css`: responsive layout, keyboard focus styles, and reduced-motion support.
-- `favicon.svg`: Matter Fold browser icon.
-- `matter-fold.svg`: standalone Matter Fold brand mark.
+- `favicon.svg`: compact Matter Fold emblem of interwoven strands for the browser icon.
+- `matter-fold.svg`: standalone Matter Fold emblem of interwoven strands, based on the supplied brand reference.
 - `.nojekyll`: serves the static website without Jekyll processing.
 
 The site uses plain HTML and CSS. No build step, JavaScript, external fonts, analytics, or runtime dependencies are required. `.preview/` contains local review output and must not be uploaded.
@@ -20,7 +20,7 @@ Serve this directory with a static HTTP server. For example:
 python -m http.server 8080 --bind 127.0.0.1
 ```
 
-Open `http://127.0.0.1:8080/`. Review desktop and phone layouts, section links, the brand mark, and concept illustrations.
+Open `http://127.0.0.1:8080/`. Review desktop and phone layouts, section links, the interwoven strand emblem, and the memory-cell concept illustration.
 
 ## GitHub Pages
 
@@ -41,7 +41,7 @@ Assets use relative URLs so they work under the repository's Pages path. The can
 
 Explain the mission in plain language: use biology to shape matter for broader material abundance. Keep the first focus on memory chips distinct from future material and manufacturing systems and the long-term ambition in therapeutics.
 
-Technology descriptions concern research and development. Illustrations are conceptual; device performance and system integration remain under experimental validation. Do not present future applications as existing products or imply demonstrated clinical capabilities. Update technical and therapeutic claims only when supported by evidence.
+Technology descriptions concern research and development. The memory-cell illustration is conceptual; device performance and system integration remain under experimental validation. Do not present future applications as existing products or imply demonstrated clinical capabilities. Update technical and therapeutic claims only when supported by evidence.
 
 The Connect section links to the actual GitHub repository. Direct contact details can be added when available.
 
