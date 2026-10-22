@@ -9,6 +9,7 @@ A responsive website for Matter Fold, an early-stage project exploring how biolo
 - `favicon.svg`: compact Matter Fold emblem of interwoven strands for the browser icon.
 - `matter-fold.svg`: standalone Matter Fold emblem of interwoven strands, based on the supplied brand reference.
 - `.nojekyll`: serves the static website without Jekyll processing.
+- `CNAME`: GitHub Pages custom hostname, `matterfold.bio`. Preserve this file when publishing.
 
 The site uses plain HTML and CSS. No build step, JavaScript, external fonts, analytics, or runtime dependencies are required. `.preview/` contains local review output and must not be uploaded.
 
@@ -26,9 +27,9 @@ Open `http://127.0.0.1:8080/`. Review desktop and phone layouts, section links, 
 
 Repository: [Athena5-28/Bio-mem-website](https://github.com/Athena5-28/Bio-mem-website).
 
-Live website: [athena5-28.github.io/Bio-mem-website/](https://athena5-28.github.io/Bio-mem-website/).
+Website domain: [matterfold.bio](https://matterfold.bio/).
 
-The public brand is Matter Fold. Keep the existing repository and Pages URL when updating the website.
+The public brand is Matter Fold. Keep the existing repository and use `matterfold.bio` as the public website address.
 
 1. Keep the website files at the root of `main`, preserving unrelated files and repository history.
 2. In [Settings → Pages](https://github.com/Athena5-28/Bio-mem-website/settings/pages), select **Deploy from a branch**, **main**, and **/(root)**.
@@ -47,7 +48,19 @@ The Connect section links to the actual GitHub repository. Direct contact detail
 
 The `linkedin/` directory contains separate, archived marketing drafts from the earlier brand and is not linked from the website. Preserve those files as historical materials.
 
-## A custom domain later
+## Custom domain
 
-Configure a verified domain in GitHub Pages settings and follow [GitHub's custom-domain guidance](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site). Preserve any `CNAME` file GitHub creates. Once the new domain works over HTTPS, update the two absolute URLs next to the `DOMAIN` comment in `index.html` and verify the deployed website again.
+Set the repository's GitHub Pages custom domain to `matterfold.bio` and retain the root `CNAME` file. The canonical and social URL metadata in `index.html` use `https://matterfold.bio/`; the local generator in `.preview/` uses the same address.
+
+Cloudflare website DNS records should use DNS only and TTL Auto:
+
+| Type | Name | Value |
+| --- | --- | --- |
+| A | @ | 185.199.108.153 |
+| A | @ | 185.199.109.153 |
+| A | @ | 185.199.110.153 |
+| A | @ | 185.199.111.153 |
+| CNAME | www | athena5-28.github.io |
+
+Keep domain-verification TXT records and unrelated email records. Once DNS validation and certificate provisioning complete, enable Enforce HTTPS in GitHub Pages. Verify `https://matterfold.bio/`, the redirect from `www.matterfold.bio`, styling, the emblem, and section links. Follow [GitHub's custom-domain guidance](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site) when troubleshooting.
 
